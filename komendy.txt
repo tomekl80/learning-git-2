@@ -1,0 +1,7 @@
+autoprefixer-cli
+
+./node_modules/.bin/autoprefixer-cli --no-map-annotation --sources-content ./sass/style.css -o ./sass/style.prefixed.css
+
+nu-html-checker
+
+./node_modules/.bin/nu-html-checker -V ./*.html
